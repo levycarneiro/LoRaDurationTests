@@ -3,6 +3,8 @@ How much time it takes to send a LoRa message with different parameters?
 
 Tests below were done by sending a short "Hello" string. Duration will increase with longer messages.
 
+Hardware used: Heltec ESP32 LoRa v2 board with LoRa chip SX1276.
+
 | Spreading Factor | Bandwidth (KHz) | Duration (ms) |
 | --- | --- | --- |
 | 6 | 7.80 | 166 |
