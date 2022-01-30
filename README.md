@@ -1,5 +1,5 @@
 # LoRaDurationTests
-How much time it takes to send a LoRa message with different parameters?
+How much time does it take to send a LoRa message with different parameters?
 
 Tests done with:
 
