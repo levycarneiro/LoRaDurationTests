@@ -3,9 +3,10 @@ How much time does it take to send a LoRa message with different parameters?
 
 Tests done with:
 
-- Sending a short "Hello" string. Duration will increase with longer messages.
-- CRC is disabled by default in LoRa.h library.
-- Hardware used is Heltec ESP32 LoRa v2 board with SX1276 chip.
+- Message = short "Hello" string. Note: the duration will increase with longer messages.
+- CRC = disabled by default in LoRa.h library.
+- Library = sandeepmistry's [LoRa Library](https://github.com/sandeepmistry/arduino-LoRa).
+- Hardware = Heltec ESP32 LoRa v2 board with SX1276 chip.
 
 | Spreading Factor | Bandwidth (KHz) | Duration (ms) |
 | --- | --- | --- |
