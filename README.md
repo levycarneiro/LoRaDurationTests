@@ -5,7 +5,8 @@ Tests done with:
 
 - Message = short "Hello" string. Note: the duration will increase with longer messages.
 - Library = sandeepmistry's [LoRa Library](https://github.com/sandeepmistry/arduino-LoRa).
-- CRC = disabled by default in LoRa.h library.
+- CRC = disabled (library's default).
+- Coding rate = 5 (library's default).
 - Hardware = Heltec ESP32 LoRa v2 board with SX1276 chip.
 
 | Spreading Factor | Bandwidth (KHz) | Duration (ms) |
