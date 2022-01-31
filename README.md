@@ -1,6 +1,6 @@
 # LoRaDurationTests
 
-From what I saw, a higher Spreading Factor and lower Bandwidth provide longer range for LoRa communications, but they come with longer duration time for sending messages. So: how much time does it take to send a LoRa message with different parameters?
+A higher Spreading Factor and lower Bandwidth optime for longer range in LoRa communications, but they come with longer duration time for sending messages (and more energy use). Which begs the question: how much time does it take to send a LoRa message with different parameters?
 
 Tests done with:
 
